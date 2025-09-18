@@ -18,7 +18,7 @@ BlobMixer is a Three.js-based interactive web application for creating and mixin
 ### Installation
 1. Clone the repository:
    ```powershell
-   git clone <your-repo-url>
+   git clone https://github.com/amanpraaj/BlobMixer.git
    cd BlobMixer
    ```
 2. Install dependencies:
