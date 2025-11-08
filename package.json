@@ -1,6 +1,6 @@
 {
   "name": "blobmixer",
-  "homepage": "https://amanpraaj.github.io/BlobMixer",
+  "homepage": "https://projects.mydomain.eu.org/BlobMixer",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
