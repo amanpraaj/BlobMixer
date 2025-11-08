@@ -2,5 +2,6 @@ import { defineConfig } from 'vite';
 import glsl from 'vite-plugin-glsl';
 
 export default defineConfig({
-    plugins: [glsl()],
+  base: '/BlobMixer/', // 👈 IMPORTANT: repo ka naam daalo yahan
+  plugins: [glsl()],
 });
